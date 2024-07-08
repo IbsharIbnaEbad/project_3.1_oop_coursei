@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/img_background"
+    android:backgroundTintMode="src_over"
+    tools:context=".register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="casual"
+        android:text="@string/regCr"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:text="@string/regw"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+
+        android:id="@+id/edtfn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/enFN"
+        android:inputType="text"
+        android:drawableLeft="@drawable/img_person"/>
+
+    <EditText
+
+        android:id="@+id/edtsn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/enSN"
+        android:inputType="text"
+        android:drawableLeft="@drawable/img_person"/>
+
+    <EditText
+
+        android:id="@+id/edtphn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/enph"
+        android:drawableLeft="@drawable/img_phone"
+        android:inputType="phone"/>
+
+    <EditText
+
+        android:id="@+id/edtpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/enPass"
+        android:inputType="number"
+        android:drawableLeft="@drawable/img_lock"
+
+        />
+
+    <EditText
+        android:id="@+id/edtrpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/enCpass"
+        android:inputType="number"
+        android:drawableLeft="@drawable/img_lock"
+        />
+
+
+    <Button
+        android:id="@+id/btncrtreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#2196F3"
+        android:text="Register "
+        android:textSize="20sp" />
+
+
+</LinearLayout>
